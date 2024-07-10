@@ -9,24 +9,89 @@ import Program from "./pages/program-sekolah/page";
 import SchoolExpenses from "./pages/program-sekolah/biaya-sekolah/page";
 import Pendaftaran from "./pages/contact-us/page";
 import Faq from "./pages/contact-us/faq/page";
+import RegistrationForm from "./pages/formulir-pendaftaran/page";
+
+const MainLayout = ({ children }: { children: any }) => (
+  <>
+    <Navbar />
+    {children}
+    <Footer />
+  </>
+);
+
+const NoNavbarFooterLayout = ({ children }: { children: any }) => (
+  <>{children}</>
+);
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/profil-sekolah" element={<Profile />} />
-        <Route path="/program-sekolah" element={<Program />} />
+        <Route
+          path="/formulir-pendaftaran"
+          element={
+            <NoNavbarFooterLayout>
+              <RegistrationForm />
+            </NoNavbarFooterLayout>
+          }
+        />
+        <Route
+          path="/"
+          element={
+            <MainLayout>
+              <Home />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/profil-sekolah"
+          element={
+            <MainLayout>
+              <Profile />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/program-sekolah"
+          element={
+            <MainLayout>
+              <Program />
+            </MainLayout>
+          }
+        />
         <Route
           path="/program-sekolah/biaya-sekolah"
-          element={<SchoolExpenses />}
+          element={
+            <MainLayout>
+              <SchoolExpenses />
+            </MainLayout>
+          }
         />
-        <Route path="/galeri-sekolah" element={<Gallery />} />
-        <Route path="/contact-us" element={<Pendaftaran />} />
-        <Route path="/contact-us/faq" element={<Faq />} />
+        <Route
+          path="/galeri-sekolah"
+          element={
+            <MainLayout>
+              <Gallery />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/contact-us"
+          element={
+            <MainLayout>
+              <Pendaftaran />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/contact-us/faq"
+          element={
+            <MainLayout>
+              <Faq />
+            </MainLayout>
+          }
+        />
       </Routes>
-      <Footer />
     </Router>
   );
 };
