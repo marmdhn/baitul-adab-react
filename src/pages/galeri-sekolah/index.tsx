@@ -16,7 +16,7 @@ export default function Gallery() {
 
   const data = [
     {
-      src: "/image/galeri-sekolah/img (1).JPG",
+      src: "/image/galeri-sekolah/img (1).jpg",
     },
     {
       src: "/image/galeri-sekolah/img (2).JPG",
