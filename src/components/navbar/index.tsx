@@ -206,6 +206,10 @@ const Navbar = () => {
                           <Link
                             to={link.href}
                             onClick={() => {
+                              const element = document.getElementById(
+                                link.hash.split("#")[1],
+                              );
+                              element?.scrollIntoView({ behavior: "smooth" });
                               setCurrentHash(link.hash);
                               localStorage.setItem("currentHash", link.hash);
                             }}
@@ -290,6 +294,12 @@ const Navbar = () => {
                               <Link
                                 to={link.href}
                                 onClick={() => {
+                                  const element = document.getElementById(
+                                    link.hash.split("#")[1],
+                                  );
+                                  element?.scrollIntoView({
+                                    behavior: "smooth",
+                                  });
                                   setCurrentHash(link.hash);
                                   localStorage.setItem(
                                     "currentHash",
