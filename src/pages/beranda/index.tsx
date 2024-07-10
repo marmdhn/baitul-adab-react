@@ -195,14 +195,14 @@ export default function Home() {
           width={100}
           src="/image/home/ornament-3.svg"
           alt="school-pict"
-          className="object-cover absolute h-auto w-1/4 left-0 bottom-0 hidden lg:block"
+          className="object-cover absolute h-auto w-1/4 left-0 bottom-0 hidden lg:block -z-10"
         />
         <img
           height={100}
           width={100}
           src="/image/home/ornament-2.svg"
           alt="school-pict"
-          className="object-cover absolute h-auto w-1/4 right-0 -top-20 hidden lg:block"
+          className="object-cover absolute h-auto w-1/4 right-0 -top-20 hidden lg:block -z-10"
         />
       </section>
       {/* Second section*/}
