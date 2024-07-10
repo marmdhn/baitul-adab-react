@@ -1,12 +1,12 @@
 "use client";
 
-// import TestimonialCard from "@/components/testimonialCard";
-// import CurriculumCard from "@/components/curiculumCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect, useState } from "react";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import CurriculumCard from "../../components/curiculumCard";
+import TestimonialCard from "../../components/testimonialCard";
 
 export default function Home() {
   useEffect(() => {
@@ -58,7 +58,7 @@ export default function Home() {
 
       {/* Hero section*/}
       <section
-        id="home"
+        id="first"
         className="pt-16 lg:pt-32 lg:pb-16 px-4 lg:px-16 flex flex-col lg:flex-row items-center justify-center relative min-h-screen "
       >
         {/* Bagian Kiri */}
@@ -138,30 +138,30 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/BookOpen.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Kurikulum Terbaru"*/}
-              {/*  description="Menggunakan pembelajaran dengan kurikulum terupdate"*/}
-              {/*/>*/}
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/SquaresFour.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Fasilitas Lengkap"*/}
-              {/*  description="Tersedia berbagai fasilitas untuk menunjang pembelajaran"*/}
-              {/*/>*/}
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/BookOpenUser.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Mengaji Setiap Hari"*/}
-              {/*  description="Mengaji setiap hari agar anak fasih membaca Al-Quran"*/}
-              {/*/>*/}
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/Books.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Hafalan Juz 30"*/}
-              {/*  description="Anak menghafal Al-Quran surah - surah pendek (Juz 30)"*/}
-              {/*/>*/}
+              <CurriculumCard
+                imageSrc="/image/home/BookOpen.svg"
+                imageAlt="school-pict"
+                title="Kurikulum Terbaru"
+                description="Menggunakan pembelajaran dengan kurikulum terupdate"
+              />
+              <CurriculumCard
+                imageSrc="/image/home/SquaresFour.svg"
+                imageAlt="school-pict"
+                title="Fasilitas Lengkap"
+                description="Tersedia berbagai fasilitas untuk menunjang pembelajaran"
+              />
+              <CurriculumCard
+                imageSrc="/image/home/BookOpenUser.svg"
+                imageAlt="school-pict"
+                title="Mengaji Setiap Hari"
+                description="Mengaji setiap hari agar anak fasih membaca Al-Quran"
+              />
+              <CurriculumCard
+                imageSrc="/image/home/Books.svg"
+                imageAlt="school-pict"
+                title="Hafalan Juz 30"
+                description="Anak menghafal Al-Quran surah - surah pendek (Juz 30)"
+              />
             </div>
 
             <div
@@ -169,24 +169,24 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/BookOpen.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Bilingual Program"*/}
-              {/*  description="Pembelajaran menggunakan 2 bahasa (Indonesia - Inggris)"*/}
-              {/*/>*/}
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/Smiley.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Pembiasaan Adab"*/}
-              {/*  description="Mempelajari adab sopan santun agar anak berakhlak mulia"*/}
-              {/*/>*/}
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/HandsPraying.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Doa & Ibadah Harian"*/}
-              {/*  description="Mempelajari adab sopan santun agar anak berakhlak mulia"*/}
-              {/*/>*/}
+              <CurriculumCard
+                imageSrc="/image/home/BookOpen.svg"
+                imageAlt="school-pict"
+                title="Bilingual Program"
+                description="Pembelajaran menggunakan 2 bahasa (Indonesia - Inggris)"
+              />
+              <CurriculumCard
+                imageSrc="/image/home/Smiley.svg"
+                imageAlt="school-pict"
+                title="Pembiasaan Adab"
+                description="Mempelajari adab sopan santun agar anak berakhlak mulia"
+              />
+              <CurriculumCard
+                imageSrc="/image/home/HandsPraying.svg"
+                imageAlt="school-pict"
+                title="Doa & Ibadah Harian"
+                description="Mempelajari adab sopan santun agar anak berakhlak mulia"
+              />
             </div>
           </div>
         </div>
@@ -232,12 +232,12 @@ export default function Home() {
                 data-aos="fade-up"
                 data-aos-delay={index * 350}
               >
-                {/*<TestimonialCard*/}
-                {/*  imageSrc={testimonial.imageSrc}*/}
-                {/*  imageAlt={testimonial.imageAlt}*/}
-                {/*  title={testimonial.title}*/}
-                {/*  description={testimonial.description}*/}
-                {/*/>*/}
+                <TestimonialCard
+                  imageSrc={testimonial.imageSrc}
+                  imageAlt={testimonial.imageAlt}
+                  title={testimonial.title}
+                  description={testimonial.description}
+                />
               </div>
             ))}
           </div>
@@ -269,7 +269,7 @@ export default function Home() {
           <div className="w-full lg:order-2 mt-8 lg:mt-56">
             <div className="flex flex-col lg:flex-row">
               <div
-                className="card w-auto md:w-auto bg-transparent rounded-lg"
+                className="card w-auto md:w-1/2 bg-transparent rounded-lg"
                 data-aos="fade-up"
                 data-aos-delay="500"
               >
@@ -313,9 +313,11 @@ export default function Home() {
                   className="object-contain mx-auto"
                 />
                 <div className="card-body items-center text-center text-primary">
-                  <h2 className="font-semibold text-2xl">Ujian Tulis</h2>
+                  <h2 className="font-semibold text-2xl">
+                    Observasi & Wawancara Orang Tua
+                  </h2>
                   <p className="text-lg font-normal">
-                    Siswa / Siswi melakukan ujian tulis
+                    Siswa siswi melakukan observasi dan wawancara orang tua
                   </p>
                 </div>
               </div>
@@ -330,7 +332,7 @@ export default function Home() {
                 className="object-contain mx-auto w-1/6 hidden xl:block"
               />
               <div
-                className="card w-auto md:w-auto bg-transparent rounded-lg"
+                className="card w-auto md:w-1/2 bg-transparent rounded-lg"
                 data-aos="fade-up"
                 data-aos-delay="2000"
               >
@@ -345,8 +347,7 @@ export default function Home() {
                 <div className="card-body items-center text-center text-primary">
                   <h2 className="font-semibold text-2xl">Pengumuman</h2>
                   <p className="text-lg font-normal">
-                    Pengumuman hasil seleksi ujian dan pembayaran registrasi
-                    sekolah
+                    Pengumuman hasil observasi & wawancara orang tua
                   </p>
                 </div>
               </div>
