@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-2">
             <i className="bi bi-envelope-fill"></i>
-            <span>baituladabislamicschool@gmail.com</span>
+            <span>baituladab@gmail.com</span>
           </div>
           <div className="flex items-start gap-2">
             <i className="bi bi-geo-alt-fill"></i>
