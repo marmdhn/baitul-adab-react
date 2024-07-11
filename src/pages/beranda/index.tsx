@@ -31,6 +31,13 @@ export default function Home() {
       description:
         "Alhamdulillah, sekarang Adiva menjadi lebih mudah dalam berteman dan berani dalam mengutarakan pendapat serta keinginannya. Gurunya friendly banget sama anak-anak, membuat Adiva nyaman di sekolah. (Bunda Raisa orangtua dari Adiva)",
     },
+    {
+      imageSrc: "/image/home/TestimonialPerson.png",
+      imageAlt: "school-pict",
+      title: "Saliem",
+      description:
+        "Alhamdulillah, sekarang Adiva menjadi lebih mudah dalam berteman dan berani dalam mengutarakan pendapat serta keinginannya. Gurunya friendly banget sama anak-anak, membuat Adiva nyaman di sekolah. (Bunda Raisa orangtua dari Adiva)",
+    },
   ];
 
   const [showWhatsApp, setShowWhatsApp] = useState(false);
@@ -75,8 +82,12 @@ export default function Home() {
               Baitul Adab Islamic School
             </h2>
             <p className="mt-4 text-gray-600">
-              sekolah tahfidz bilingual school. Al-adab qoblal ilmi (Belajar
-              adab sebelum ilmu)
+              sekolah{" "}
+              <span className="text-2xl font-semibold">
+                tahfidz bilingual school.
+              </span>
+              <br />
+              Al-adab qoblal ilmi (Belajar adab sebelum ilmu)
             </p>
             <a href="/contact-us">
               <button className="btn btn-primary text-white mt-4">
@@ -142,13 +153,13 @@ export default function Home() {
                 imageSrc="/image/home/BookOpen.svg"
                 imageAlt="school-pict"
                 title="Kurikulum Terbaru"
-                description="Menggunakan pembelajaran dengan kurikulum terupdate"
+                description="Menggunakan kurikulum merdeka berbasis project dengan metode active learning"
               />
               <CurriculumCard
                 imageSrc="/image/home/SquaresFour.svg"
                 imageAlt="school-pict"
                 title="Fasilitas Lengkap"
-                description="Tersedia berbagai fasilitas untuk menunjang pembelajaran"
+                description="Membuat anak nyaman selama bermain dan mengikuti proses pembelajaran, serta memudahkan anak dalam mengeksplor banyak hal"
               />
               <CurriculumCard
                 imageSrc="/image/home/BookOpenUser.svg"
@@ -173,7 +184,7 @@ export default function Home() {
                 imageSrc="/image/home/BookOpen.svg"
                 imageAlt="school-pict"
                 title="Bilingual Program"
-                description="Pembelajaran menggunakan 2 bahasa (Indonesia - Inggris)"
+                description="Pembelajaran menggunakan dua Bahasa, yaitu Bahasa Indonesia dan Bahasa Inggris (Mulai jenjang TK)"
               />
               <CurriculumCard
                 imageSrc="/image/home/Smiley.svg"
@@ -185,7 +196,7 @@ export default function Home() {
                 imageSrc="/image/home/HandsPraying.svg"
                 imageAlt="school-pict"
                 title="Doa & Ibadah Harian"
-                description="Mempelajari adab sopan santun agar anak berakhlak mulia"
+                description="Anak-anak dibiasakan sholat, membaca doa-doa dan praktek adab-adab dalam aktifitas sehari-hari"
               />
             </div>
           </div>
@@ -317,7 +328,9 @@ export default function Home() {
                     Observasi & Wawancara Orang Tua
                   </h2>
                   <p className="text-lg font-normal">
-                    Siswa siswi melakukan observasi dan wawancara orang tua
+                    Calon peserta didik mengikuti observasi bersama
+                    guru/psikolog, Test Fingger print STIFIN, dan wawancara
+                    dengan orangtua
                   </p>
                 </div>
               </div>
@@ -398,6 +411,12 @@ export default function Home() {
                       <i className="bi bi-arrow-right-circle text-lg lg:text-2xl"></i>
                       <span className="text-lg lg:text-2xl font-medium">
                         Usia Kelompok A minimal 4 tahun di bulan Juli 2024
+                      </span>
+                    </div>
+                    <div className="flex gap-4">
+                      <i className="bi bi-arrow-right-circle text-lg lg:text-2xl"></i>
+                      <span className="text-lg lg:text-2xl font-medium">
+                        Usia kelompok B minimal 5 tahun di bulan juli 2024
                       </span>
                     </div>
                   </div>
