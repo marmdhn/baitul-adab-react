@@ -5,13 +5,6 @@ const Tab22 = () => {
         <span className="font-bold text-3xl lg:text-4xl text-center text-secondary-content">
           Kindegarten Plus Daycare
         </span>
-        <span className="font-normal text-base text-center text-neutral">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu
-        </span>
       </div>
 
       <div className="mt-10 flex flex-col gap-10 lg:flex-row items-start justify-center">
