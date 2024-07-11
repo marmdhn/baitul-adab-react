@@ -126,18 +126,7 @@ const Navbar = () => {
         index: 4,
         label: "Hubungi Kami",
         href: "/contact-us",
-        scrollLinks: [
-          {
-            label: "Hubungi Kami",
-            href: "/contact-us",
-            hash: "contact-us",
-          },
-          {
-            label: "FAQ",
-            href: "/contact-us/faq",
-            hash: "faq",
-          },
-        ],
+        scrollLinks: [],
       },
     ],
     [],
