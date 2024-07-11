@@ -7,6 +7,8 @@ export default function PendaftaranForm() {
     namaCalonSiswa: "",
     namaOrangTua: "",
     nomorWhatsApp: "",
+    alamat: "",
+    usiaAnak: "",
     programKelas: "",
   });
 
@@ -20,9 +22,15 @@ export default function PendaftaranForm() {
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    const { namaCalonSiswa, namaOrangTua, nomorWhatsApp, programKelas } =
-      formData;
-    const message = `Nama Calon Siswa: ${namaCalonSiswa}%0aNama Orang Tua/Wali: ${namaOrangTua}%0aNomor WhatsApp: ${nomorWhatsApp}%0aProgram Kelas: ${programKelas}`;
+    const {
+      namaCalonSiswa,
+      namaOrangTua,
+      nomorWhatsApp,
+      alamat,
+      usiaAnak,
+      programKelas,
+    } = formData;
+    const message = `Nama Calon Siswa: ${namaCalonSiswa}%0aNama Orang Tua/Wali: ${namaOrangTua}%0aNomor WhatsApp: ${nomorWhatsApp}%0aAlamat: ${alamat}%0aUsia Anak: ${usiaAnak}%0aProgram Kelas: ${programKelas}`;
     const whatsappURL = `https://wa.me/6285333392421?text=${message}`;
     window.open(whatsappURL, "_blank");
   };
@@ -46,11 +54,27 @@ export default function PendaftaranForm() {
           className="input input-bordered bg-transparent w-full text-neutral"
         />
         <input
-          type="text"
+          type="number"
           name="nomorWhatsApp"
           value={formData.nomorWhatsApp}
           onChange={handleChange}
-          placeholder="Nomor Whats App Orang Tua / Wali *"
+          placeholder="Nomor WhatsApp Orang Tua / Wali *"
+          className="input input-bordered bg-transparent w-full text-neutral"
+        />
+        <input
+          type="text"
+          name="alamat"
+          value={formData.alamat}
+          onChange={handleChange}
+          placeholder="Alamat *"
+          className="input input-bordered bg-transparent w-full text-neutral"
+        />
+        <input
+          type="number"
+          name="usiaAnak"
+          value={formData.usiaAnak}
+          onChange={handleChange}
+          placeholder="Usia Anak *"
           className="input input-bordered bg-transparent w-full text-neutral"
         />
         <select
