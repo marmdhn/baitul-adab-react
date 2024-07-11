@@ -7,6 +7,8 @@ import React, { useEffect, useState } from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import CurriculumCard from "../../components/curiculumCard";
 import TestimonialCard from "../../components/testimonialCard";
+import RegistrationLevelCard from "../../components/registrationLevelCard";
+import NewsCard from "../../components/newsCard";
 
 export default function Home() {
   useEffect(() => {
@@ -226,6 +228,60 @@ export default function Home() {
               className="flex flex-col justify-center gap-4 text-3xl lg:text-5xl font-semibold"
               data-aos="fade-up"
             >
+              <span className="text-neutral">Program Sekolah Apa Saja di</span>
+              <span className="text-secondary-content">
+                Baitul Adab Islamic School
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row gap-8 items-center justify-between">
+            <div data-aos="fade-up" data-aos-delay={350}>
+              <RegistrationLevelCard
+                imageSrc="/image/home/daycare.png"
+                imageAlt="school-pict"
+                title="Daycare"
+                url="/"
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-delay={700}>
+              <RegistrationLevelCard
+                imageSrc="/image/home/kelompok-bermain.png"
+                imageAlt="school-pict"
+                title="Kelompok Bermain"
+                url="/"
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-delay={1050}>
+              <RegistrationLevelCard
+                imageSrc="/image/home/taman-kanak-kanak.png"
+                imageAlt="school-pict"
+                title="Taman Kanak Kanak"
+                url="/"
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-delay={1400}>
+              <RegistrationLevelCard
+                imageSrc="/image/home/home-school.png"
+                imageAlt="school-pict"
+                title="HomeSchool"
+                subTitle="(SD-SMP-SMA)"
+                url="/"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Third section*/}
+
+      {/* Fourth section*/}
+      <section id="testimoni" className="w-full py-16 lg:py-32 relative z-10">
+        <div className="px-4 lg:px-16">
+          <div className="w-full text-center mb-8">
+            <div
+              className="flex flex-col justify-center gap-4 text-3xl lg:text-5xl font-semibold"
+              data-aos="fade-up"
+            >
               <span className="text-neutral">
                 Apa Kata Para Orangtua Tentang
               </span>
@@ -254,9 +310,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Third section*/}
+      {/* Fourth section*/}
 
-      {/*  Fourth section*/}
+      {/*  Fifth section*/}
       <section
         id="alur-pendaftaran"
         className="w-full py-16 lg:py-32 relative z-10"
@@ -278,7 +334,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full lg:order-2 mt-8 lg:mt-56">
-            <div className="flex flex-col lg:flex-row">
+            <div className="flex flex-col lg:flex-row items-center">
               <div
                 className="card w-auto md:w-1/2 bg-transparent rounded-lg"
                 data-aos="fade-up"
@@ -368,9 +424,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/*  Fourth section*/}
-
       {/*  Fifth section*/}
+
+      {/*  Six section*/}
       <section id="syarat-pendaftaran" className="w-full py-16 lg:py-32">
         <div className="px-4 lg:px-16">
           <div className="w-full text-center mb-8">
@@ -474,7 +530,36 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/*  Fifth section*/}
+      {/*  Six section*/}
+
+      {/*  Seventh Section*/}
+      <section id="syarat-pendaftaran" className="w-full py-16 lg:py-32">
+        <div className="px-4 lg:px-16">
+          <div className="w-full text-center mb-8">
+            <div
+              className="flex flex-col justify-center gap-4"
+              data-aos="fade-up"
+            >
+              <span className="text-neutral text-3xl lg:text-5xl font-semibold">
+                Berita Terbaru Dari{" "}
+                <span className="text-secondary-content">Baitul Adab</span>
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center justify-between">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <NewsCard
+                title={"Doa Sebelum Belajar"}
+                desc={
+                  "Memang doa sesudah dan sebelum belajar sangat dianjurkan dalam agama Islam..."
+                }
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      {/*  Seventh Section*/}
     </div>
   );
 }
