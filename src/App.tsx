@@ -8,7 +8,6 @@ import Footer from "./components/footer";
 import Program from "./pages/program-sekolah/page";
 import SchoolExpenses from "./pages/program-sekolah/biaya-sekolah/page";
 import Pendaftaran from "./pages/contact-us/page";
-import Faq from "./pages/contact-us/faq/page";
 import RegistrationForm from "./pages/formulir-pendaftaran/page";
 
 const MainLayout = ({ children }: { children: any }) => (
@@ -80,14 +79,6 @@ const App = () => {
           element={
             <MainLayout>
               <Pendaftaran />
-            </MainLayout>
-          }
-        />
-        <Route
-          path="/contact-us/faq"
-          element={
-            <MainLayout>
-              <Faq />
             </MainLayout>
           }
         />
