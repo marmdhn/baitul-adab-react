@@ -29,19 +29,19 @@ const Tab1 = () => {
           imageSrc="/image/profil-sekolah/karakter-1.svg"
           imageAlt="school-pict"
           title="sHoleh"
-          description="Menjadi anak yang mudah bergaul dengan anak lain"
+          description="Siswa memiliki ketaatan dan kesungguhan dalam beribadah dan menjalankan perintah Allah swt serta menjauhi larangan-larangan-Nya"
         />{" "}
         <CharacterCard
           imageSrc="/image/profil-sekolah/karakter-2.svg"
           imageAlt="school-pict"
           title="santUn"
-          description="Menjadi anak yang mudah bergaul dengan anak lain"
+          description="Siswa memiliki perilaku santun dalam dalam berbicara, bertindak dan beinteraksi dengan teman, guru, orangtua dan sesama"
         />{" "}
         <CharacterCard
           imageSrc="/image/profil-sekolah/karakter-3.svg"
           imageAlt="school-pict"
           title="Mandiri"
-          description="Menjadi anak yang mudah bergaul dengan anak lain"
+          description="Siswa terbiasa proaktif, independen dan mampu memaksimalkan kemampuan sendiri dalam melakukan berbagai aktivitas dengan penuh tanggung jawab"
         />
       </div>
 
@@ -50,19 +50,19 @@ const Tab1 = () => {
           imageSrc="/image/profil-sekolah/karakter-5.svg"
           imageAlt="school-pict"
           title="disipLin"
-          description="Menjadi anak yang mudah bergaul dengan anak lain"
+          description="Siswa memiliki sikap yang akrab, menyenangkan, toleran, mudah bergaul, menyesuaikan diri, dan bekerjasama dengan orang lain"
         />{" "}
         <CharacterCard
           imageSrc="/image/profil-sekolah/karakter-4.svg"
           imageAlt="school-pict"
           title="Bersahabat"
-          description="Menjadi anak yang mudah bergaul dengan anak lain"
+          description="Siswa memiliki sikap taat dan patuh terhadap aturan dan nilai-nilai yang dipercaya merupakan tanggung jawabnya"
         />{" "}
         <CharacterCard
           imageSrc="/image/profil-sekolah/karakter-6.svg"
           imageAlt="school-pict"
           title="cErdas"
-          description="Menjadi anak yang mudah bergaul dengan anak lain"
+          description="Siswa memiliki kemampuan untuk menggali dan memaksimalkan potensi dirinya sesuai jenis kecerdasannya"
         />{" "}
       </div>
     </div>
