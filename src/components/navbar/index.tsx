@@ -63,7 +63,7 @@ const Navbar = () => {
     () => [
       {
         index: 0,
-        label: "Home",
+        label: "Beranda",
         href: "/",
         scrollLinks: [],
       },
@@ -74,19 +74,16 @@ const Navbar = () => {
         scrollLinks: [
           {
             label: "Sejarah Singkat",
-            to: "sejarah-singkat",
             href: "/profil-sekolah/#sejarah-singkat",
             hash: "#sejarah-singkat",
           },
           {
             label: "Visi & Misi",
-            to: "visi-misi",
             href: "/profil-sekolah/#visi-misi",
             hash: "#visi-misi",
           },
           {
             label: "Detail Sekolah",
-            to: "detail-sekolah",
             href: "/profil-sekolah/#detail-sekolah",
             hash: "#detail-sekolah",
           },
@@ -99,25 +96,21 @@ const Navbar = () => {
         scrollLinks: [
           {
             label: "Kelas",
-            to: "kelas",
             href: "/program-sekolah/#kelas",
             hash: "#kelas",
           },
           {
             label: "Kurikulum",
-            to: "kurikulum",
             href: "/program-sekolah/#kurikulum",
             hash: "#kurikulum",
           },
           {
             label: "Kelas & Jadwal Harian",
-            to: "kelas-jadwal-harian",
             href: "/program-sekolah/#kelas-jadwal-harian",
             hash: "#kelas-jadwal-harian",
           },
           {
             label: "Biaya Sekolah",
-            to: "biaya-sekolah",
             href: "/program-sekolah/biaya-sekolah",
             hash: "biaya-sekolah",
           },
@@ -131,18 +124,16 @@ const Navbar = () => {
       },
       {
         index: 4,
-        label: "Contact Us",
+        label: "Hubungi Kami",
         href: "/contact-us",
         scrollLinks: [
           {
-            label: "Contact Us",
-            to: "contact-us",
+            label: "Hubungi Kami",
             href: "/contact-us",
             hash: "contact-us",
           },
           {
             label: "FAQ",
-            to: "faq",
             href: "/contact-us/faq",
             hash: "faq",
           },
