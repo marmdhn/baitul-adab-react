@@ -27,8 +27,65 @@ export default function Pendaftaran() {
         />
       )}
 
+      <section id="contact-us-first" className="bg-white w-full py-20 lg:py-32">
+        <div className="px-4 lg:px-16">
+          <div className="flex flex-col mb-4">
+            <span className="text-4xl font-bold text-secondary-content">
+              Lokasi
+            </span>
+            <span className="text-2xl font-bold text-neutral">
+              BAITUL ADAB ISLAMIC SCHOOL
+            </span>
+          </div>
+          <div className="card bg-[#FF9F6659] w-full shadow-xl p-4">
+            <figure className="mb-5">
+              <iframe
+                title="school-maps"
+                className="rounded-lg w-full"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1667.1751486924002!2d106.8420425578666!3d-6.363871568471747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed86ee7cea9f%3A0x389ac9ec412c959c!2sBaitul%20Adab%20Islamic%20School!5e0!3m2!1sid!2sid!4v1719575896984!5m2!1sid!2sid"
+                height="463"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+            <div className="card-body bg-white items-center text-center rounded-lg text-neutral gap-4">
+              <h2 className="card-title font-bold">Kontak kami</h2>
+              <div className="flex flex-col md:flex-row justify-between gap-4 lg:gap-16 items-start text-start">
+                <div className="text-neutral text-sm flex items-center gap-2">
+                  <i className="bi bi-telephone text-2xl"></i>
+                  <div className="font-semibold flex flex-col">
+                    <span>WhatsApp</span>
+                    <span className="text-secondary-content">
+                      0853-3339-2421
+                    </span>
+                  </div>
+                </div>
+                <div className="text-neutral text-sm flex items-center gap-2">
+                  <i className="bi bi-envelope text-2xl"></i>
+                  <div className="font-semibold flex flex-col">
+                    <span>Email</span>
+                    <span className="text-secondary-content">
+                      baituladab@gmail.com
+                    </span>
+                  </div>
+                </div>
+                <div className="text-neutral text-sm flex items-center gap-2">
+                  <i className="bi bi-instagram text-2xl"></i>
+                  <div className="font-semibold flex flex-col">
+                    <span>Instagram</span>
+                    <span className="text-secondary-content">@baituladab</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section
-        id="contact-us-first"
+        id="contact-us-second"
         className="h-full lg:h-[944px] w-full py-20 lg:py-32 relative bg-[#FFFAE6]"
       >
         <img
@@ -141,66 +198,6 @@ export default function Pendaftaran() {
                   <span className="text-base font-medium">
                     Masa orientasi siswa baru
                   </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        id="contact-us-second"
-        className="bg-white w-full py-20 lg:py-32"
-      >
-        <div className="px-4 lg:px-16">
-          <div className="flex flex-col mb-4">
-            <span className="text-4xl font-bold text-secondary-content">
-              Lokasi
-            </span>
-            <span className="text-2xl font-bold text-neutral">
-              BAITUL ADAB ISLAMIC SCHOOL
-            </span>
-          </div>
-          <div className="card bg-[#FF9F6659] w-full shadow-xl p-4">
-            <figure className="mb-5">
-              <iframe
-                title="school-maps"
-                className="rounded-lg w-full"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1667.1751486924002!2d106.8420425578666!3d-6.363871568471747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed86ee7cea9f%3A0x389ac9ec412c959c!2sBaitul%20Adab%20Islamic%20School!5e0!3m2!1sid!2sid!4v1719575896984!5m2!1sid!2sid"
-                height="463"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </figure>
-            <div className="card-body bg-white items-center text-center rounded-lg text-neutral gap-4">
-              <h2 className="card-title font-bold">Kontak kami</h2>
-              <div className="flex flex-col md:flex-row justify-between gap-4 lg:gap-16 items-start text-start">
-                <div className="text-neutral text-sm flex items-center gap-2">
-                  <i className="bi bi-telephone text-2xl"></i>
-                  <div className="font-semibold flex flex-col">
-                    <span>WhatsApp</span>
-                    <span className="text-secondary-content">
-                      0853-3339-2421
-                    </span>
-                  </div>
-                </div>
-                <div className="text-neutral text-sm flex items-center gap-2">
-                  <i className="bi bi-envelope text-2xl"></i>
-                  <div className="font-semibold flex flex-col">
-                    <span>Email</span>
-                    <span className="text-secondary-content">
-                      baituladabislamicschool@gmail.com
-                    </span>
-                  </div>
-                </div>
-                <div className="text-neutral text-sm flex items-center gap-2">
-                  <i className="bi bi-instagram text-2xl"></i>
-                  <div className="font-semibold flex flex-col">
-                    <span>Instagram</span>
-                    <span className="text-secondary-content">@baituladab</span>
-                  </div>
                 </div>
               </div>
             </div>
