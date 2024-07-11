@@ -80,7 +80,7 @@ export default function Faq() {
   }, []);
 
   return (
-    <div className="flex min-h-screen w-full flex-col items-center overflow-x-hidden">
+    <div className="flex min-h-screen w-full flex-col items-center overflow-x-hidden bg-[#FFFAE6]">
       {showWhatsApp && (
         <FloatingWhatsApp
           avatar="/image/logo.svg"

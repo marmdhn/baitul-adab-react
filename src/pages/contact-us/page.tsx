@@ -3,6 +3,7 @@
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import React, { useEffect, useState } from "react";
 import PendaftaranForm from "./pendaftaranForm";
+import Faq from "./faq";
 
 export default function Pendaftaran() {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
@@ -84,8 +85,10 @@ export default function Pendaftaran() {
         </div>
       </section>
 
+      <Faq />
+
       <section
-        id="contact-us-second"
+        id="contact-us-third"
         className="h-full lg:h-[944px] w-full py-20 lg:py-32 relative bg-[#FFFAE6]"
       >
         <img
