@@ -548,13 +548,15 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center justify-between">
-            {Array.from({ length: 8 }).map((_) => (
-              <NewsCard
-                title={"Doa Sebelum Belajar"}
-                desc={
-                  "Memang doa sesudah dan sebelum belajar sangat dianjurkan dalam agama Islam..."
-                }
-              />
+            {Array.from({ length: 8 }).map((_, index) => (
+              <div data-aos="fade-up" data-aos-delay={index * 350}>
+                <NewsCard
+                  title={"Doa Sebelum Belajar"}
+                  desc={
+                    "Memang doa sesudah dan sebelum belajar sangat dianjurkan dalam agama Islam..."
+                  }
+                />
+              </div>
             ))}
           </div>
         </div>
