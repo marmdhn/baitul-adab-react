@@ -548,7 +548,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center justify-between">
-            {Array.from({ length: 8 }).map((_, i) => (
+            {Array.from({ length: 8 }).map((_) => (
               <NewsCard
                 title={"Doa Sebelum Belajar"}
                 desc={
