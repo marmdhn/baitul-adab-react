@@ -450,6 +450,10 @@ export default function Home() {
                 Ayo Mulai Kumpulkan Berkas{" "}
                 <span className="text-secondary-content">Pendaftarannya!</span>
               </span>
+              <span className="text-neutral text-xl lg:text-4xl font-semibold">
+                Pendaftaran kami buka sepanjang tahun selama kuota masih
+                tersedia
+              </span>
               <span className="text-neutral text-lg lg:text-2xl w-full mx-auto">
                 Berkas apa saja yang diperlukan saat proses pendaftaran?
               </span>
