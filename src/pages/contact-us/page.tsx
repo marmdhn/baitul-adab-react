@@ -16,7 +16,7 @@ export default function Pendaftaran() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    <div className="flex min-h-screen w-full flex-col items-center overflow-x-hidden bg-white">
+    <div className="flex min-h-screen w-full flex-col items-center overflow-x-hidden bg-[#FFFAE6]">
       {showWhatsApp && (
         <FloatingWhatsApp
           avatar="/image/logo.svg"
@@ -28,8 +28,19 @@ export default function Pendaftaran() {
         />
       )}
 
-      <section id="contact-us-first" className="bg-white w-full py-20 lg:py-32">
+      <section id="contact-us-first" className="w-full py-20 lg:py-32">
         <div className="px-4 lg:px-16">
+          <div className="w-full text-center mb-8">
+            <div
+              className="flex flex-col justify-center gap-4 text-3xl lg:text-5xl font-semibold"
+              data-aos="fade-up"
+            >
+              <span className="text-neutral">Kontak dan Lokasi</span>
+              <span className="text-secondary-content">
+                Baitul Adab Islamic School
+              </span>
+            </div>
+          </div>
           <div className="flex flex-col mb-4">
             <span className="text-4xl font-bold text-secondary-content">
               Lokasi
@@ -51,7 +62,7 @@ export default function Pendaftaran() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </figure>
-            <div className="card-body bg-white items-center text-center rounded-lg text-neutral gap-4">
+            <div className="card-body bg-white items-center text-cente rounded-lg text-neutral gap-4">
               <h2 className="card-title font-bold">Kontak kami</h2>
               <div className="flex flex-col md:flex-row justify-between gap-4 lg:gap-16 items-start text-start">
                 <div className="text-neutral text-sm flex items-center gap-2">
@@ -80,6 +91,9 @@ export default function Pendaftaran() {
                   </div>
                 </div>
               </div>
+              <span className="mt-4">
+                Jadwal Layanan: Senin - Jumat Pukul 08.00 - 16.00 WIB
+              </span>
             </div>
           </div>
         </div>
@@ -89,7 +103,7 @@ export default function Pendaftaran() {
 
       <section
         id="contact-us-third"
-        className="h-full lg:h-[944px] w-full py-20 lg:py-32 relative bg-[#FFFAE6]"
+        className="h-full lg:h-[944px] w-full py-20 lg:py-32 relative"
       >
         <img
           height={100}
@@ -110,8 +124,8 @@ export default function Pendaftaran() {
               </span>
             </div>
             <span className="text-sm font-semibold text-[#9C9C9C]">
-              Silahkan isi form dibawah ini untuk melakukan pendaftaran,
-              pastikan isi data dengan benar
+              Isi data di bawah ini untuk memberikan pertanyaan, membuat janji,
+              atau meninggalkan pesan agar kami dapat menghubungi anda.
             </span>
 
             <PendaftaranForm />
