@@ -29,7 +29,12 @@ const RegistrationLevelCard: React.FC<RegistrationLevelCardProps> = ({
       >
         <div className="card-body items-center text-center justify-between">
           <div>
-            <span className="card-title text-2xl text-white">{title}</span>
+            <span
+              className="card-title text-2xl text-white"
+              style={{ color: "#fff" }}
+            >
+              {title}
+            </span>
             <span className="font-semibold text-white">{subTitle}</span>
           </div>
           <img
