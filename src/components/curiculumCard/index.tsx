@@ -14,7 +14,7 @@ const CurriculumCard: React.FC<CurriculumCardProps> = ({
   description,
 }) => {
   return (
-    <div className="card w-96 md:w-auto bg-transparent hover:bg-white hover:text-neutral rounded-lg hover-card">
+    <div className="card w-96 bg-transparent hover:bg-white hover:text-neutral rounded-lg hover-card">
       <figure className="px-10 pt-10">
         <img
           height={100}
