@@ -80,7 +80,7 @@ export default function Faq() {
   }, []);
 
   return (
-    <div className="flex min-h-screen w-full flex-col items-center overflow-x-hidden bg-[#FFFAE6]">
+    <div className="flex min-h-screen w-full flex-col items-center overflow-x-hidden">
       {showWhatsApp && (
         <FloatingWhatsApp
           avatar="/image/logo.svg"
@@ -93,7 +93,7 @@ export default function Faq() {
       )}
 
       <div className="w-full px-4 lg:px-16 py-20 lg:py-32 flex flex-col gap-8 items-center justify-center">
-        <span className="text-neutral text-8xl font-bold">FAQ</span>
+        <span className="text-8xl font-bold text-secondary-content">FAQ</span>
         <div className="flex flex-col w-full lg:w-3/4 gap-4">
           {faqItems.map((item, index) => (
             <FAQItem
