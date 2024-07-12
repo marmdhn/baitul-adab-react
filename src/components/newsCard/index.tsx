@@ -17,17 +17,6 @@ const NewsCard = ({ title, desc }: { title: string; desc: string }) => {
           </div>
         </div>
       </div>
-
-      <input type="checkbox" id="my_modal_7" className="modal-toggle" />
-      <div className="modal" role="dialog">
-        <div className="modal-box text-primary-content text-center">
-          <h3 className="font-bold text-lg">Coming Soon</h3>
-          <p className="py-4">Konten ini akan segera hadir. Stay tuned!</p>
-        </div>
-        <label className="modal-backdrop" htmlFor="my_modal_7">
-          Close
-        </label>
-      </div>
     </>
   );
 };
