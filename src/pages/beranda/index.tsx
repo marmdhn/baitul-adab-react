@@ -84,9 +84,8 @@ export default function Home() {
               Baitul Adab Islamic School
             </h2>
             <p className="mt-4 text-gray-600">
-              sekolah{" "}
               <span className="text-2xl font-semibold">
-                tahfidz bilingual school.
+                sekolah tahfidz bilingual school.
               </span>
               <br />
               Al-adab qoblal ilmi (Belajar adab sebelum ilmu)
@@ -142,7 +141,7 @@ export default function Home() {
         <div className="px-4 lg:px-16">
           <div className="w-full text-center" data-aos="fade-up">
             <span className="text-5xl font-semibold">
-              Kenapa Harus Baitul Adab?
+              Mengapa Harus Baitul Adab?
             </span>
           </div>
           <div className="flex flex-col gap-5 items-center justify-center p-8 w-1/2 lg:w-full lg:order-1 lg:justify-center mx-auto">
@@ -164,17 +163,23 @@ export default function Home() {
                 description="Membuat anak nyaman selama bermain dan mengikuti proses pembelajaran, serta memudahkan anak dalam mengeksplor banyak hal"
               />
               <CurriculumCard
-                imageSrc="/image/home/BookOpenUser.svg"
+                imageSrc="/image/home/Smiley.svg"
                 imageAlt="school-pict"
-                title="Mengaji Setiap Hari"
-                description="Mengaji setiap hari agar anak fasih membaca Al-Quran"
+                title="Pembiasaan Adab, Doa dan Ibadah"
+                description="Anak-anak dibiasakan sholat, membaca doa-doa dan praktek adab-adab dalam aktifitas sehari-hari"
               />
-              <CurriculumCard
-                imageSrc="/image/home/Books.svg"
-                imageAlt="school-pict"
-                title="Hafalan Juz 30"
-                description="Anak menghafal Al-Quran surah - surah pendek (Juz 30)"
-              />
+              {/*<CurriculumCard*/}
+              {/*  imageSrc="/image/home/BookOpenUser.svg"*/}
+              {/*  imageAlt="school-pict"*/}
+              {/*  title="Mengaji Setiap Hari"*/}
+              {/*  description="Mengaji setiap hari agar anak fasih membaca Al-Quran"*/}
+              {/*/>*/}
+              {/*<CurriculumCard*/}
+              {/*  imageSrc="/image/home/Books.svg"*/}
+              {/*  imageAlt="school-pict"*/}
+              {/*  title="Hafalan Juz 30"*/}
+              {/*  description="Anak menghafal Al-Quran surah - surah pendek (Juz 30)"*/}
+              {/*/>*/}
             </div>
 
             <div
@@ -188,17 +193,12 @@ export default function Home() {
                 title="Bilingual Program"
                 description="Pembelajaran menggunakan dua Bahasa, yaitu Bahasa Indonesia dan Bahasa Inggris (Mulai jenjang TK)"
               />
-              <CurriculumCard
-                imageSrc="/image/home/Smiley.svg"
-                imageAlt="school-pict"
-                title="Pembiasaan Adab"
-                description="Mempelajari adab sopan santun agar anak berakhlak mulia"
-              />
+
               <CurriculumCard
                 imageSrc="/image/home/HandsPraying.svg"
                 imageAlt="school-pict"
-                title="Doa & Ibadah Harian"
-                description="Anak-anak dibiasakan sholat, membaca doa-doa dan praktek adab-adab dalam aktifitas sehari-hari"
+                title="Pendampingan Psikolog"
+                description="Proses pembelajaran dan perkembangan siswa dipantau oleh psikolog yang berpengalaman di bidang perkembangan anak"
               />
             </div>
           </div>
@@ -241,7 +241,7 @@ export default function Home() {
                 imageSrc="/image/home/daycare.png"
                 imageAlt="school-pict"
                 title="Daycare"
-                url="/"
+                url="https://api.whatsapp.com/send/?phone=6285333392421"
               />
             </div>
             <div data-aos="fade-up" data-aos-delay={700}>
@@ -249,7 +249,7 @@ export default function Home() {
                 imageSrc="/image/home/kelompok-bermain.png"
                 imageAlt="school-pict"
                 title="Kelompok Bermain"
-                url="/"
+                url="https://api.whatsapp.com/send/?phone=6285333392421"
               />
             </div>
             <div data-aos="fade-up" data-aos-delay={1050}>
@@ -257,16 +257,16 @@ export default function Home() {
                 imageSrc="/image/home/taman-kanak-kanak.png"
                 imageAlt="school-pict"
                 title="Taman Kanak Kanak"
-                url="/"
+                url="https://api.whatsapp.com/send/?phone=6285333392421"
               />
             </div>
             <div data-aos="fade-up" data-aos-delay={1400}>
               <RegistrationLevelCard
                 imageSrc="/image/home/home-school.png"
                 imageAlt="school-pict"
-                title="HomeSchool"
+                title="Home School"
                 subTitle="(SD-SMP-SMA)"
-                url="/"
+                url="https://pridebaituladab.sch.id/"
               />
             </div>
           </div>
@@ -291,14 +291,26 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="carousel w-full gap-8 rounded-box">
+          {/*<div className="carousel w-full gap-8 rounded-box">*/}
+          {/*  {testimonials.map((testimonial, index) => (*/}
+          {/*    <div*/}
+          {/*      className="carousel-item"*/}
+          {/*      key={index}*/}
+          {/*      data-aos="fade-up"*/}
+          {/*      data-aos-delay={index * 350}*/}
+          {/*    >*/}
+          {/*      <TestimonialCard*/}
+          {/*        imageSrc={testimonial.imageSrc}*/}
+          {/*        imageAlt={testimonial.imageAlt}*/}
+          {/*        title={testimonial.title}*/}
+          {/*        description={testimonial.description}*/}
+          {/*      />*/}
+          {/*    </div>*/}
+          {/*  ))}*/}
+          {/*</div>*/}
+          <div className="flex justify-center w-full gap-8 rounded-box">
             {testimonials.map((testimonial, index) => (
-              <div
-                className="carousel-item"
-                key={index}
-                data-aos="fade-up"
-                data-aos-delay={index * 350}
-              >
+              <div key={index} data-aos="fade-up" data-aos-delay={index * 350}>
                 <TestimonialCard
                   imageSrc={testimonial.imageSrc}
                   imageAlt={testimonial.imageAlt}
@@ -548,7 +560,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center justify-between">
-            {Array.from({ length: 8 }).map((_, index) => (
+            {Array.from({ length: 9 }).map((_, index) => (
               <div data-aos="fade-up" data-aos-delay={index * 350}>
                 <NewsCard
                   title={"Doa Sebelum Belajar"}
@@ -562,6 +574,19 @@ export default function Home() {
         </div>
       </section>
       {/*  Seventh Section*/}
+
+      {/*  Modal*/}
+      <input type="checkbox" id="my_modal_7" className="modal-toggle" />
+      <div className="modal" role="dialog">
+        <div className="modal-box text-primary-content text-center">
+          <h3 className="font-bold text-lg">Coming Soon</h3>
+          <p className="py-4">Konten ini akan segera hadir. Stay tuned!</p>
+        </div>
+        <label className="modal-backdrop" htmlFor="my_modal_7">
+          Close
+        </label>
+      </div>
+      {/*  Modal*/}
     </div>
   );
 }
