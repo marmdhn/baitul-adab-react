@@ -10,6 +10,7 @@ export default function PendaftaranForm() {
     alamat: "",
     usiaAnak: "",
     programKelas: "",
+    pesan: "",
   });
 
   const handleChange = (e: { target: { name: string; value: string } }) => {
@@ -29,8 +30,9 @@ export default function PendaftaranForm() {
       alamat,
       usiaAnak,
       programKelas,
+      pesan,
     } = formData;
-    const message = `Nama Calon Siswa: ${namaCalonSiswa}%0aNama Orang Tua/Wali: ${namaOrangTua}%0aNomor WhatsApp: ${nomorWhatsApp}%0aAlamat: ${alamat}%0aUsia Anak: ${usiaAnak}%0aProgram Kelas: ${programKelas}`;
+    const message = `Nama Calon Siswa: ${namaCalonSiswa}%0aNama Orang Tua/Wali: ${namaOrangTua}%0aNomor WhatsApp: ${nomorWhatsApp}%0aAlamat: ${alamat}%0aUsia Anak: ${usiaAnak}%0aProgram Kelas: ${programKelas}%0aPesan: ${pesan}`;
     const whatsappURL = `https://wa.me/6285333392421?text=${message}`;
     window.open(whatsappURL, "_blank");
   };
@@ -93,6 +95,14 @@ export default function PendaftaranForm() {
             Kindergarten Plus Daycare
           </option>
         </select>
+        <input
+          type="text"
+          name="pesan"
+          value={formData.pesan}
+          onChange={handleChange}
+          placeholder="Pesan/Pertanyaan *"
+          className="input input-bordered bg-transparent w-full text-neutral"
+        />
         <button type="submit" className="btn btn-primary text-white mx-auto">
           KIRIM VIA WHATSAPP
         </button>
