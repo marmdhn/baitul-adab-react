@@ -1,17 +1,26 @@
 "use client";
 
 import React, { SetStateAction, useCallback, useEffect, useState } from "react";
-// import Tab1 from "@/app/profil-sekolah/tab_1";
-// import Tab2 from "@/app/profil-sekolah/tab_2";
-// import Tab3 from "@/app/profil-sekolah/tab_3";
-
 import { AnimatePresence, motion } from "framer-motion";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import Tab1 from "./tab1";
 import Tab2 from "./tab2";
 import Tab3 from "./tab3";
+import { useLocation } from "react-router-dom";
 
 export default function Profile() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const hash = location.hash;
+    if (hash) {
+      const element = document.getElementById(hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   const [activeTab, setActiveTab] = useState(1);
   const [currentSlide, setCurrentSlide] = useState(0);
 

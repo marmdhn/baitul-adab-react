@@ -7,8 +7,21 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 import ProgramCard from "../../components/programCard";
 import LevelCard from "../../components/levelCard";
 import ClassCard from "../../components/classCard";
+import { useLocation } from "react-router-dom";
 
 export default function Program() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const hash = location.hash;
+    if (hash) {
+      const element = document.getElementById(hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   const [current, setCurrent] = useState(0);
 
   const [showWhatsApp, setShowWhatsApp] = useState(false);
