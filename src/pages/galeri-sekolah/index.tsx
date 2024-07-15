@@ -74,7 +74,7 @@ export default function Gallery() {
             </span>
           </div>
 
-          <div className="flex justify-center gap-4 mb-8">
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
             <span
               className={`badge badge-lg px-8 py-4 hover:bg-primary hover:border-transparent hover:text-white hover:cursor-pointer ${
                 filter === "semua"

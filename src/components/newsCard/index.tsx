@@ -3,7 +3,7 @@ import React from "react";
 const NewsCard = ({ title, desc }: { title: string; desc: string }) => {
   return (
     <>
-      <div className="card card-compact w-96 shadow-xl bg-primary-content">
+      <div className="card card-compact w-auto lg:w-64 xl:w-96 shadow-xl bg-primary-content">
         <div className="px-4 pt-4 rounded-lg">
           <img src="/image/home/news.png" alt="school-pict" />
         </div>

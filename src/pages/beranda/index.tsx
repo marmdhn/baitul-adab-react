@@ -563,7 +563,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center justify-between">
+          <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center">
             {Array.from({ length: 9 }).map((_, index) => (
               <div data-aos="fade-up" data-aos-delay={index * 350}>
                 <NewsCard

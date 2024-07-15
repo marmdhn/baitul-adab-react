@@ -19,7 +19,7 @@ const RegistrationLevelCard: React.FC<RegistrationLevelCardProps> = ({
   return (
     <>
       <div
-        className="card w-96 h-96 lg:w-auto bg-primary-content shadow-xl"
+        className="card w-96 h-auto lg:h-96 lg:w-auto bg-primary-content shadow-xl"
         style={{
           backgroundImage: "url(/image/profil-sekolah/background.svg)",
           backgroundSize: "cover",

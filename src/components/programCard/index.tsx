@@ -18,11 +18,13 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
 }) => {
   return (
     <>
-      <div className={`card w-full h-[300px] shadow-xl ${className}`}>
+      <div
+        className={`card w-full h-[250px] lg:h-[300px] shadow-xl ${className}`}
+      >
         <div className="card-body p-0 items-center text-center">
           <div className="flex h-full">
             {/* Kiri*/}
-            <div className="w-96">
+            <div className="w-96 hidden md:block">
               <img
                 src={img}
                 alt="school-pict"
@@ -34,7 +36,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
             {/* Kiri*/}
 
             {/* Kanan*/}
-            <div className="text-neutral bg-[#FAFAFA] rounded-s-2xl lg:rounded-2xl p-4 flex flex-col justify-between">
+            <div className="text-neutral bg-[#FAFAFA] rounded-2xl md:rounded-none md:rounded-e-2xl p-4 flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <div className="flex justify-between items-start">
                   <div>
