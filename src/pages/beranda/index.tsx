@@ -291,24 +291,24 @@ export default function Home() {
             </div>
           </div>
 
-          {/*<div className="carousel w-full gap-8 rounded-box">*/}
-          {/*  {testimonials.map((testimonial, index) => (*/}
-          {/*    <div*/}
-          {/*      className="carousel-item"*/}
-          {/*      key={index}*/}
-          {/*      data-aos="fade-up"*/}
-          {/*      data-aos-delay={index * 350}*/}
-          {/*    >*/}
-          {/*      <TestimonialCard*/}
-          {/*        imageSrc={testimonial.imageSrc}*/}
-          {/*        imageAlt={testimonial.imageAlt}*/}
-          {/*        title={testimonial.title}*/}
-          {/*        description={testimonial.description}*/}
-          {/*      />*/}
-          {/*    </div>*/}
-          {/*  ))}*/}
-          {/*</div>*/}
-          <div className="flex justify-center w-full gap-8 rounded-box">
+          <div className="lg:hidden carousel w-full gap-8 rounded-box">
+            {testimonials.map((testimonial, index) => (
+              <div
+                className="carousel-item"
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 350}
+              >
+                <TestimonialCard
+                  imageSrc={testimonial.imageSrc}
+                  imageAlt={testimonial.imageAlt}
+                  title={testimonial.title}
+                  description={testimonial.description}
+                />
+              </div>
+            ))}
+          </div>
+          <div className="hidden lg:flex justify-center w-full gap-8 rounded-box">
             {testimonials.map((testimonial, index) => (
               <div key={index} data-aos="fade-up" data-aos-delay={index * 350}>
                 <TestimonialCard

@@ -46,7 +46,15 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
                 <p className="text-start text-sm">{description}</p>
               </div>
               <div className="text-end">
-                <Link to={link}>
+                <Link
+                  to={link}
+                  onClick={() => {
+                    const element = document.getElementById(link.split("#")[1]);
+                    element?.scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                >
                   <button className="btn btn-sm btn-neutral rounded-full">
                     Lihat
                   </button>
