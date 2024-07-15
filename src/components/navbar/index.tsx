@@ -14,6 +14,7 @@ const Navbar = () => {
 
   useEffect(() => {
     setActivePath(pathname);
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   useEffect(() => {
