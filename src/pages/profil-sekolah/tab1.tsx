@@ -19,9 +19,10 @@ const Tab1 = () => {
         alt="school-pict"
         className="object-contain mx-auto absolute bottom-5 right-5"
       />
-      <span className="font-bold text-3xl lg:text-5xl text-center">
-        Karakter <span className="text-white">Humble</span> Apa Saja Yang
-        dibentuk?
+      <span className="relative z-10 font-bold text-3xl lg:text-5xl text-center">
+        Baitul Adab Islamic School mengarahkan proses pendidikannya untuk
+        membentuk insan penggerak peradaban Islam yang{" "}
+        <span className="text-white">H U M B L E</span>
       </span>
 
       <div className="mt-10 flex flex-col gap-10 lg:flex-row items-center justify-center">

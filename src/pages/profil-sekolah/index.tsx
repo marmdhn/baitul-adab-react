@@ -251,7 +251,7 @@ export default function Profile() {
               }`}
               onClick={() => handleTabChange(2)}
             >
-              Lulusan Sekolah
+              Profile Lulusan
             </button>
             <button
               className={`${
