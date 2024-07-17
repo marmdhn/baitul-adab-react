@@ -163,23 +163,17 @@ export default function Home() {
                 description="Membuat anak nyaman selama bermain dan mengikuti proses pembelajaran, serta memudahkan anak dalam mengeksplor banyak hal"
               />
               <CurriculumCard
-                imageSrc="/image/home/Smiley.svg"
+                imageSrc="/image/home/BookOpenUser.svg"
                 imageAlt="school-pict"
-                title="Pembiasaan Adab, Doa dan Ibadah"
-                description="Anak-anak dibiasakan sholat, membaca doa-doa dan praktek adab-adab dalam aktifitas sehari-hari"
+                title="Setiap hari anak mengaji dan menghafal al-quran juz 30"
+                description="Mengaji setiap hari agar anak fasih membaca Al-Quran"
               />
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/BookOpenUser.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Mengaji Setiap Hari"*/}
-              {/*  description="Mengaji setiap hari agar anak fasih membaca Al-Quran"*/}
-              {/*/>*/}
-              {/*<CurriculumCard*/}
-              {/*  imageSrc="/image/home/Books.svg"*/}
-              {/*  imageAlt="school-pict"*/}
-              {/*  title="Hafalan Juz 30"*/}
-              {/*  description="Anak menghafal Al-Quran surah - surah pendek (Juz 30)"*/}
-              {/*/>*/}
+              <CurriculumCard
+                imageSrc="/image/home/Books.svg"
+                imageAlt="school-pict"
+                title="Tahsin dan Tahfidz Juz 30"
+                description="Anak menghafal Al-Quran surah - surah pendek (Juz 30)"
+              />
             </div>
 
             <div
@@ -187,6 +181,12 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-delay="600"
             >
+              <CurriculumCard
+                imageSrc="/image/home/Smiley.svg"
+                imageAlt="school-pict"
+                title="Pembiasaan Adab, Doa dan Ibadah"
+                description="Anak-anak dibiasakan sholat, membaca doa-doa dan praktek adab-adab dalam aktifitas sehari-hari"
+              />
               <CurriculumCard
                 imageSrc="/image/home/BookOpen.svg"
                 imageAlt="school-pict"
@@ -228,7 +228,7 @@ export default function Home() {
               className="flex flex-col justify-center gap-4 text-3xl lg:text-5xl font-semibold"
               data-aos="fade-up"
             >
-              <span className="text-neutral">Program Sekolah Apa Saja di</span>
+              <span className="text-neutral">Program Sekolah di</span>
               <span className="text-secondary-content">
                 Baitul Adab Islamic School
               </span>
@@ -264,7 +264,7 @@ export default function Home() {
               <RegistrationLevelCard
                 imageSrc="/image/home/home-school.png"
                 imageAlt="school-pict"
-                title="Home School"
+                title="Homeschooling"
                 subTitle="(SD-SMP-SMA)"
                 url="https://pridebaituladab.sch.id/"
               />
@@ -447,16 +447,16 @@ export default function Home() {
               data-aos="fade-up"
             >
               <span className="text-neutral text-3xl lg:text-5xl font-semibold">
-                Ayo Mulai Kumpulkan Berkas{" "}
+                Siapkan Berkas Pendaftarannya{" "}
                 <span className="text-secondary-content">Pendaftarannya!</span>
               </span>
               <span className="text-neutral text-xl lg:text-4xl font-semibold">
                 Pendaftaran kami buka sepanjang tahun selama kuota masih
                 tersedia
               </span>
-              <span className="text-neutral text-lg lg:text-2xl w-full mx-auto">
-                Berkas apa saja yang diperlukan saat proses pendaftaran?
-              </span>
+              {/*<span className="text-neutral text-lg lg:text-2xl w-full mx-auto">*/}
+              {/*  Berkas apa saja yang diperlukan saat proses pendaftaran?*/}
+              {/*</span>*/}
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center justify-center">
