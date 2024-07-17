@@ -146,7 +146,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-5 items-center justify-center p-8 w-1/2 lg:w-full lg:order-1 lg:justify-center mx-auto">
             <div
-              className="flex flex-col lg:flex-row items-center justify-center"
+              className="flex flex-col flex-wrap xl:flex-nowrap lg:flex-row items-center justify-center"
               data-aos="fade-up"
               data-aos-delay="400"
             >
