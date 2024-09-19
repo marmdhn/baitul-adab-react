@@ -43,6 +43,14 @@ export default function Home() {
     },
   ];
 
+  const news = [
+    {
+      imageSrc: "/image/home/news.png",
+      title: "Doa Sebelum Belajar",
+      desc: "Memang doa sesudah dan sebelum belajar sangat dianjurkan dalam agama Islam...",
+    },
+  ];
+
   const [showWhatsApp, setShowWhatsApp] = useState(false);
 
   useEffect(() => {
@@ -581,17 +589,16 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center">
-              {Array.from({ length: 9 }).map((_, index) => (
+              {news.map((item, index) => (
                 <div
                   data-aos="fade-up"
                   data-aos-delay={index * 350}
                   key={index}
                 >
                   <NewsCard
-                    title={"Doa Sebelum Belajar"}
-                    desc={
-                      "Memang doa sesudah dan sebelum belajar sangat dianjurkan dalam agama Islam..."
-                    }
+                    imgSrc={item.imageSrc}
+                    title={item.title}
+                    desc={item.desc}
                   />
                 </div>
               ))}
