@@ -40,9 +40,9 @@ export default function Profile() {
   }, []);
 
   const images = [
-    "/image/profil-sekolah/profil-1.jpg",
-    "/image/profil-sekolah/profil-2.jpg",
-    "/image/profil-sekolah/profil-3.jpg",
+    "/image/profil-sekolah/profil-1.png",
+    "/image/profil-sekolah/profil-2.png",
+    "/image/profil-sekolah/profil-3.png",
   ];
 
   const nextSlide = useCallback(() => {
