@@ -45,17 +45,17 @@ export default function Home() {
 
   const news = [
     {
-      imageSrc: "/image/home/agustus-day.jpg",
+      imageSrc: "/image/home/news-august.png",
       title: "August Day",
       desc: "Baitul School beserta memperingati acara kemerdekaan Indonesia, banyak games yang...",
     },
     {
-      imageSrc: "/image/home/market-day.jpg",
+      imageSrc: "/image/home/news-market.png",
       title: "Market Days",
       desc: "Baitul School mengadakan Market Days kepada para siswa/siswinya guna untuk mengenalkan...",
     },
     {
-      imageSrc: "/image/home/performance.jpg",
+      imageSrc: "/image/home/news-performance.png",
       title: "Performance Days",
       desc: "Baitul School mengadakan performace kids untuk melatih bakat pada anak...",
     },
