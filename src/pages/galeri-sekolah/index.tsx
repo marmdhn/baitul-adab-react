@@ -47,35 +47,35 @@ export default function Gallery() {
     },
     {
       src: "/image/galeri-sekolah/praga-1.JPG",
-      category: "alat-praga",
+      category: "alat-peraga",
     },
     {
       src: "/image/galeri-sekolah/praga-2.JPG",
-      category: "alat-praga",
+      category: "alat-peraga",
     },
     {
       src: "/image/galeri-sekolah/praga-3.JPG",
-      category: "alat-praga",
+      category: "alat-peraga",
     },
     {
       src: "/image/galeri-sekolah/praga-4.JPG",
-      category: "alat-praga",
+      category: "alat-peraga",
     },
     {
       src: "/image/galeri-sekolah/praga-5.JPG",
-      category: "alat-praga",
+      category: "alat-peraga",
     },
     {
       src: "/image/galeri-sekolah/praga-6.JPG",
-      category: "alat-praga",
+      category: "alat-peraga",
     },
     {
       src: "/image/galeri-sekolah/praga-7.JPG",
-      category: "alat-praga",
+      category: "alat-peraga",
     },
     {
       src: "/image/galeri-sekolah/praga-8.JPG",
-      category: "alat-praga",
+      category: "alat-peraga",
     },
     {
       src: "/image/galeri-sekolah/kegiatan-1.jpg",
