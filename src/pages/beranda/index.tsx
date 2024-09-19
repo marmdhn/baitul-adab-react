@@ -45,9 +45,19 @@ export default function Home() {
 
   const news = [
     {
-      imageSrc: "/image/home/news.png",
-      title: "Doa Sebelum Belajar",
-      desc: "Memang doa sesudah dan sebelum belajar sangat dianjurkan dalam agama Islam...",
+      imageSrc: "/image/home/agustus-day.jpg",
+      title: "August Day",
+      desc: "Baitul School beserta memperingati acara kemerdekaan Indonesia, banyak games yang...",
+    },
+    {
+      imageSrc: "/image/home/market-day.jpg",
+      title: "Market Days",
+      desc: "Baitul School mengadakan Market Days kepada para siswa/siswinya guna untuk mengenalkan...",
+    },
+    {
+      imageSrc: "/image/home/performance.jpg",
+      title: "Performance Days",
+      desc: "Baitul School mengadakan performace kids untuk melatih bakat pada anak...",
     },
   ];
 
@@ -126,7 +136,7 @@ export default function Home() {
               height={100}
               width={100}
               style={{ height: "auto" }}
-              src="/image/home/heroSectionChildren.png"
+              src="/image/home/mainimage.png"
               alt="school-pict"
               className="object-contain mx-auto w-full md:w-4/5"
             />
@@ -588,7 +598,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center">
+            <div className="flex flex-col flex-wrap lg:flex-row gap-8 items-center justify-center">
               {news.map((item, index) => (
                 <div
                   data-aos="fade-up"
