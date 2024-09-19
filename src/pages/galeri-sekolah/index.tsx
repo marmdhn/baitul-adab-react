@@ -45,6 +45,98 @@ export default function Gallery() {
       src: "/image/galeri-sekolah/img (7).JPG",
       category: "kegiatan-sekolah",
     },
+    {
+      src: "/image/galeri-sekolah/praga-1.JPG",
+      category: "alat-praga",
+    },
+    {
+      src: "/image/galeri-sekolah/praga-2.JPG",
+      category: "alat-praga",
+    },
+    {
+      src: "/image/galeri-sekolah/praga-3.JPG",
+      category: "alat-praga",
+    },
+    {
+      src: "/image/galeri-sekolah/praga-4.JPG",
+      category: "alat-praga",
+    },
+    {
+      src: "/image/galeri-sekolah/praga-5.JPG",
+      category: "alat-praga",
+    },
+    {
+      src: "/image/galeri-sekolah/praga-6.JPG",
+      category: "alat-praga",
+    },
+    {
+      src: "/image/galeri-sekolah/praga-7.JPG",
+      category: "alat-praga",
+    },
+    {
+      src: "/image/galeri-sekolah/praga-8.JPG",
+      category: "alat-praga",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-1.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-2.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-3.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-4.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-5.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-6.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-7.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-8.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-9.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-10.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/kegiatan-11.JPG",
+      category: "kegiatan-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/area-1.JPG",
+      category: "area-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/area-2.JPG",
+      category: "area-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/area-3.JPG",
+      category: "area-sekolah",
+    },
+    {
+      src: "/image/galeri-sekolah/area-4.JPG",
+      category: "area-sekolah",
+    },
   ];
 
   const filteredData =

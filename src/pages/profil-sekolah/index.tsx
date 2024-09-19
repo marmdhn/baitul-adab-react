@@ -43,6 +43,7 @@ export default function Profile() {
     "/image/profil-sekolah/profil-1.png",
     "/image/profil-sekolah/profil-2.png",
     "/image/profil-sekolah/profil-3.png",
+    "/image/profil-sekolah/profil-4.png",
   ];
 
   const nextSlide = useCallback(() => {
