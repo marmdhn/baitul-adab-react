@@ -1,11 +1,19 @@
 import React from "react";
 
-const NewsCard = ({ title, desc }: { title: string; desc: string }) => {
+const NewsCard = ({
+  imgSrc,
+  title,
+  desc,
+}: {
+  imgSrc: string;
+  title: string;
+  desc: string;
+}) => {
   return (
     <>
       <div className="card card-compact w-auto lg:w-64 xl:w-96 shadow-xl bg-primary-content">
         <div className="px-4 pt-4 rounded-lg">
-          <img src="/image/home/news.png" alt="school-pict" />
+          <img src={imgSrc} alt="school-pict" />
         </div>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
