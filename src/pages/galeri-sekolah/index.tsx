@@ -78,7 +78,7 @@ export default function Gallery() {
       category: "alat-praga",
     },
     {
-      src: "/image/galeri-sekolah/kegiatan-1.JPG",
+      src: "/image/galeri-sekolah/kegiatan-1.jpg",
       category: "kegiatan-sekolah",
     },
     {
@@ -94,11 +94,11 @@ export default function Gallery() {
       category: "kegiatan-sekolah",
     },
     {
-      src: "/image/galeri-sekolah/kegiatan-5.JPG",
+      src: "/image/galeri-sekolah/kegiatan-5.jpg",
       category: "kegiatan-sekolah",
     },
     {
-      src: "/image/galeri-sekolah/kegiatan-6.JPG",
+      src: "/image/galeri-sekolah/kegiatan-6.jpg",
       category: "kegiatan-sekolah",
     },
     {
@@ -106,7 +106,7 @@ export default function Gallery() {
       category: "kegiatan-sekolah",
     },
     {
-      src: "/image/galeri-sekolah/kegiatan-8.JPG",
+      src: "/image/galeri-sekolah/kegiatan-8.jpg",
       category: "kegiatan-sekolah",
     },
     {
@@ -130,11 +130,11 @@ export default function Gallery() {
       category: "area-sekolah",
     },
     {
-      src: "/image/galeri-sekolah/area-3.JPG",
+      src: "/image/galeri-sekolah/area-3.jpg",
       category: "area-sekolah",
     },
     {
-      src: "/image/galeri-sekolah/area-4.JPG",
+      src: "/image/galeri-sekolah/area-4.jpeg",
       category: "area-sekolah",
     },
   ];
