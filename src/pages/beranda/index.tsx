@@ -45,20 +45,48 @@ export default function Home() {
 
   const news = [
     {
-      imageSrc: "/image/home/news-august.png",
-      title: "August Day",
-      desc: "Baitul School beserta memperingati acara kemerdekaan Indonesia, banyak games yang...",
+      imageSrc: "/image/news/montesori.png",
+      title:
+        "Transformasi Kelas: Pelatihan Metode Montessori untuk Inovasi Pengajaran",
+      desc: "Pada 24-28 agustus, KB-TK Baitul Adab Islamic School mengadakan pelatihan Metode Montessori untuk para guru dengan tema Transformasi Kelas: Pelatihan Metode Montessori untuk Inovasi Pengajaran. Kegiatan ini dihadiri oleh para guru, staff dan pengurus yayasan yang antusias belajar cara-cara inovatif dalam mengajar. Pelatihan ini mengedepankan prinsip-prinsip Montessori, seperti pembelajaran berbasis pengalaman dan kemandirian siswa. Para peserta diajak untuk berpartisipasi dalam sesi praktik dan diskusi, membagikan pengalaman serta ide-ide kreatif. Acara ini diharapkan dapat meningkatkan kualitas pengajaran dan menciptakan lingkungan belajar yang lebih inspiratif!",
     },
     {
-      imageSrc: "/image/home/news-market.png",
-      title: "Market Days",
-      desc: "Baitul School mengadakan Market Days kepada para siswa/siswinya guna untuk mengenalkan...",
+      imageSrc: "/image/news/market-day.png",
+      title: "Kecil-Kecil Jualan: Kegiatan Seru di Market Day",
+      desc: "KB-TK Baitul Adab Islamic School menggelar Market Day bertema Kecil-Kecil Jualan pada 17 Agustus 2024 bertepatan dengan peringatan 17 an , di mana para siswa berkesempatan untuk menunjukkan kreativitas mereka. Anak-anak menjual berbagai produk, mulai dari kerajinan tangan hingga makanan ringan, sambil belajar nilai jual dan interaksi dengan pelanggan. Acara ini juga dilengkapi dengan permainan dan aktivitas menarik, menciptakan suasana penuh keceriaan. Market Day ini menjadi pengalaman berharga, mengajarkan kerja sama dan tanggung jawab kepada anak-anak. Suasana meriah ini diharapkan menjadi tradisi semesteran yang dinanti!",
     },
     {
-      imageSrc: "/image/home/news-performance.png",
-      title: "Performance Days",
-      desc: "Baitul School mengadakan performace kids untuk melatih bakat pada anak...",
+      imageSrc: "/image/news/outing-class.png",
+      title: "Dari Kelas ke Kebun Binatang: Petualangan Edukatif di Ragunan",
+      desc: "Pada tanggal 17 Oktober 2024, siswa-siswi KB-TK Baitul Adab Islamic School mengadakan outing class ke Kebun Binatang Ragunan. Kegiatan ini bertujuan untuk memberikan pengalaman langsung tentang keanekaragaman hayati dan pentingnya pelestarian satwa. Siswa-siswi dengan antusias menjelajahi berbagai kandang hewan, mulai dari gajah hingga burung eksotis. Mereka juga mengikuti sesi edukasi yang diadakan oleh pemandu, yang menjelaskan perilaku dan habitat hewan. Kegiatan ini tidak hanya menyenangkan, tetapi juga menambah pengetahuan dan kesadaran siswa tentang lingkungan. Suasana ceria dan penuh kegembiraan menyemarakkan hari belajar di luar kelas ini!",
     },
+    {
+      imageSrc: "/image/news/webinar-parenting.png",
+      title:
+        "Webinar Parenting; Kiat mengenali bakat dan Melejitkan Potensi Anak",
+      desc: "Pada 19 Oktober 2024, KB-TK Baitul Adab Islamic School sukses mengadakan webinar parenting bertema Kiat Mengenali Bakat dan Melejitkan Potensi Anak. Acara ini dihadiri oleh orang tua dan pendidik yang antusias untuk memahami cara terbaik mendukung perkembangan anak. Pembicara ahli yang dihadirkan adalah Ibu Hena Rustiana, S.Psi, CFP, seorang Psikolog dan Konselor, memberikan wawasan tentang pentingnya mengenali bakat unik setiap anak serta strategi untuk mengoptimalkan potensi mereka. Sesi interaktif juga memungkinkan peserta untuk berbagi pengalaman dan bertanya langsung. Webinar ini bertujuan untuk membekali orang tua dengan alat yang diperlukan dalam mendukung tumbuh kembang anak secara optimal.",
+    },
+    {
+      imageSrc: "/image/news/kolam-renang.png",
+      title:
+        "Kolam Renang Sekolah: Fasilitas Baru untuk Kesehatan dan Keceriaan Anak!",
+      desc: "Kami dengan bangga mengumumkan bahwa sekolah Baitul Adab Islamic School kini telah memiliki kolam renang! Fasilitas ini resmi akan dibuka pada tanggal 28 Oktober 2024 dan diharapkan dapat menjadi tambahan yang menyenangkan bagi siswa. Kolam renang ini tidak hanya menyediakan kesempatan untuk belajar berenang, tetapi juga mendukung kegiatan olahraga dan rekreasi yang sehat. Siswa akan mendapatkan pelajaran renang dari instruktur berpengalaman, menjadikan pengalaman belajar lebih menyenangkan. Kami yakin fasilitas ini akan meningkatkan kualitas pendidikan fisik di sekolah dan memberikan manfaat besar bagi perkembangan anak-anak.",
+    },
+    {
+      imageSrc: "/image/news/rapor.png",
+      title: "Refleksi Pembelajaran: Pembagian Rapor Mid Semester!",
+      desc: "Pada 4 Oktober 2024, KB-TK Baitul Adab Islamic School mengadakan kegiatan pembagian rapor mid semester yang dihadiri oleh siswa, orang tua, dan guru. Acara ini bertujuan untuk memberikan umpan balik mengenai pencapaian akademis siswa selama setengah semester. Siswa dengan antusias menerima rapor mereka dan berdiskusi dengan guru tentang perkembangan belajar. Orang tua juga berkesempatan untuk berbincang langsung dengan guru mengenai kemajuan anak. Kegiatan ini diharapkan dapat memotivasi siswa untuk terus berprestasi dan memperbaiki kekurangan di semester mendatang. Semoga pencapaian ini menjadi langkah awal menuju kesuksesan yang lebih besar!",
+    },
+    {
+      imageSrc: "/image/news/kolam-renang-asyik.png",
+      title: "Serunya Berenang: Kegiatan Mengasyikkan di Kolam Sekolah",
+      desc: "Kegiatan berenang ini rutin di diadakan di sekolah selama 2 kali dalam sebulan setiap hari rabu pekan ke-dua dan ke-empat. Kegiatan ini memberikan kesempatan bagi siswa untuk belajar dan bersenang-senang di kolam renang sekolah. Di bawah bimbingan instruktur/guru berpengalaman, siswa diajarkan teknik dasar renang, permainan air, dan keselamatan di air. Setiap sesi diisi dengan tawa dan semangat, saat siswa berkompetisi dalam lomba kecil atau bermain permainan air. Kegiatan ini tidak hanya meningkatkan keterampilan berenang, tetapi juga memperkuat kepercayaan diri dan kerja sama antar teman, menjadikannya pengalaman belajar yang berharga dan menyenangkan!",
+    },
+    // {
+    //   imageSrc: "/image/news/outing-class.png",
+    //   title: "Dari Kelas ke Kebun Binatang: Petualangan Edukatif di Ragunan",
+    //   desc: "Pun!",
+    // },
   ];
 
   const [showWhatsApp, setShowWhatsApp] = useState(false);
